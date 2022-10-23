@@ -1,0 +1,50 @@
+---
+manufacturer: Reolink
+model: RLN8-410     
+part_number: RLN8-410-E
+slug: rln8-410
+u_height: 1
+is_full_depth: false
+comments: '[Reolink product page](https://reolink.com/us/product/rln8-410/)'
+power-ports:
+  - name: PS-1
+    type: nema-5-15p
+    maximum_draw: 150
+interfaces:
+  - name: Port1
+    type: 1000base-t
+    mgmt_only: false
+  - name: Port2
+    type: 1000base-t
+    mgmt_only: false
+  - name: Port3
+    type: 1000base-t
+    mgmt_only: false
+  - name: Port4
+    type: 1000base-t
+    mgmt_only: false
+  - name: Port5
+    type: 1000base-t
+    mgmt_only: false
+  - name: Port6
+    type: 1000base-t
+    mgmt_only: false
+  - name: Port7
+    type: 1000base-t
+    mgmt_only: false
+  - name: Port8
+    type: 1000base-t
+    mgmt_only: false
+
+console-server-ports:
+  - name: eSATA
+    type: other
+  - name: USB
+    type: usb-a
+  - name: HDMI
+    type: other
+  - name: VGA
+    type: other
+  - name: LAN
+    type: 1000base-t
+    mgmt_only: true
