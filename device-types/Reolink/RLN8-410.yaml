@@ -37,14 +37,5 @@ interfaces:
     mgmt_only: false
 
 console-server-ports:
-  - name: eSATA
-    type: other
-  - name: USB
-    type: usb-a
-  - name: HDMI
-    type: other
-  - name: VGA
-    type: other
   - name: LAN
-    type: 1000base-t
-    mgmt_only: true
+    type: rj-45
